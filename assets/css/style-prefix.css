@@ -521,9 +521,11 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   border-bottom: 1px solid var(--cultured);
 }
 
-.header-logo { margin-bottom: 20px; }
-
-.header-logo img { margin: auto; }
+.header-logo {   margin-bottom: 20px; }
+.header-logo img { 
+  width: 170px;
+  height: 100px;
+  margin: auto; }
 
 .header-search-container { position: relative; }
 
